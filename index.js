@@ -1,9 +1,10 @@
 
+// Variáveis para armazenar o nome do herói e a XP
 let nome = "Ana";
 let xp = 2500; 
 let nivel;
 
-
+// Estrutura switch para determinar o nível com base na XP
 switch (true) {
   case (xp < 1000):
     nivel = "Ferro";
